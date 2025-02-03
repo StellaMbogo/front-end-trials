@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Embedded Google Sheet</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 20px; /* Adds some margin around the content */
+        }
+        #spreadsheet-container {
+            width: 100%; /* Makes the iframe responsive */
+            max-width: 800px; /* Sets a maximum width */
+            height: 600px; /* Adjust the height as needed */
+            border: 1px solid #ccc; /* Adds a border around the iframe */
+            margin: 0 auto; /* Centers the iframe on the page */
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Embedded Google Sheet</h1>
+
+    <div id="spreadsheet-container">
+        <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSytNYodhYYe1nzqfhUMd9sydbM8IFSlGUbj0B_uj1USBgKv2XOS_dDbK-g7_e92BJ_rLgthXGkVqlI/pubhtml?gid=1374662443&amp;single=true&amp;widget=true&amp;headers=false" 
+                width="100%" 
+                height="100%" 
+                frameborder="0"></iframe>
+    </div>
+
+</body>
+</html>
